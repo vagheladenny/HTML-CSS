@@ -1,0 +1,108 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+form{
+    background-color:lightseagreen;
+}
+
+form h2{
+    font-size: 38px;
+    padding: 5px 0px 10px;
+    color: rgb(184, 62, 62);
+    text-align: center;
+}
+
+/* ----------Input Contaner Start---------- */
+
+form .input_contaner{
+    padding-left: 100px;
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+
+/* ----------Contant Start---------- */
+/* 
+.input_contaner .contant{
+    font-size: 20px;
+    padding-bottom: 30px;
+} */
+
+input[type="text"],
+input[type="date"],
+input[type="password"],
+textarea,
+select{
+    width: 600px;
+    height: 30px;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    padding-left: 15px;
+    font-size: 15px;
+}
+
+#f_name{
+    margin-left: 100px;
+}
+
+#l_name{
+    margin-left: 103px;
+}
+
+#email{
+    margin-left: 143px;
+}
+
+#mobile, #male{
+    margin-left: 133px;
+}
+
+#b_date, #c_science{
+    margin-left: 80px;
+}
+
+#address{
+    height: 150px;
+    margin-left: 125px;
+}
+
+#city{
+    margin-left: 155px;
+}
+
+#area_pin{
+    margin-left: 113px;
+}
+
+#state{
+    margin-left: 149px;
+}
+
+#qualification{
+    margin-left: 85px;
+}
+
+#i_technology, #c_architecture, #t_communication{
+    margin-left: 204px;
+}
+
+#password{
+    margin-left: 114px;
+}
+
+#registered{
+    height: 30px;
+    width: 100px;
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(146, 10, 244);
+    color: white;
+    cursor: pointer;
+}
+
+/* ----------Contant END---------- */
+
+/* ----------Input Contaner END---------- */
